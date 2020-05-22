@@ -163,11 +163,7 @@
         background-color: lightsalmon;
         grid-area: sidear-feature;
     }
-
-    /* @media screen and (max-width: 576px) {
-        .thirdcontainer {
-                display: none;
-                
-        }
-    } */
-    
+    .third-container {
+        background-color: lightgrey;
+        display: grid;
+    }
