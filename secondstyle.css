@@ -67,7 +67,8 @@
     background-image: url(old-1130731_1920.jpg);
     height: 30vh;
     width: 100vw;
-    background-color: transparent;
+   
+    
     
 }
 
@@ -90,7 +91,7 @@
 }
 .footer {
     background-color: grey;
-    font-size: 20px;
+    font-size: 15px;
     
 }
 
@@ -108,10 +109,11 @@
 
 }
 
+
 @media screen and (max-width: 992px) {
  
     .secondcontainer {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 30%;
         background-color: grey;
         grid-template-areas:
         "body body"
@@ -138,6 +140,8 @@
     .body {
         background-color: lightpink;
         grid-area: body;
+        
+        
 
     }
     .brand2 {
@@ -146,12 +150,14 @@
         grid-area: brand2;
     }
     .ad {
-        background-color: lightskyblue;
+        background-color: lightgrey;
         grid-area: ad;
+        width: 20%;
     }
     .article {
         background-color: linen;
         grid-area: article;
+        
     }
 
     .sidebar {
@@ -163,7 +169,22 @@
         background-color: lightsalmon;
         grid-area: sidear-feature;
     }
-    /* .third-container {
-        background-color: lightgrey;
+
+    .third-container {
         display: grid;
-    } */
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        background-color: lightgrey;
+        grid-gap: 10px;
+        
+        
+    }
+    @media screen and (max-width: 576px) {
+        .third-container {
+                display: none;
+        }
+    }
+    .brand2:hover {
+        background-color: maroon;
+    }
+    
