@@ -170,10 +170,13 @@
         grid-area: sidear-feature;
     }
 
-    .third-container {
+    .thirdcontainer {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
+        grid-template-areas:
+            "sidebar"
+            "sidebar-feature";
+        
         background-color: lightgrey;
         grid-gap: 10px;
         
@@ -186,5 +189,8 @@
     }
     .brand2:hover {
         background-color: maroon;
+    }
+    body {
+        background-color: linen;
     }
     
