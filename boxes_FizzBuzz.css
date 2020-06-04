@@ -1,0 +1,9 @@
+#inner-container {
+    height: 50%;
+    width: 10%;
+    margin: 3px;
+    padding-top: 3px;
+    border-style: solid;
+    border-color: rgb(191, 228, 191);
+    background-color: lightgray;
+}
